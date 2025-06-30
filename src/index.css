@@ -1,0 +1,75 @@
+html, body, #root {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:bisque;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  
+}
+
+.title{
+  color:rgb(69,32,23);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.subtitle{
+  color: rgb(72, 71, 71);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.titleCard{
+  color:rgb(69,32,23);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 150%;
+}
+
+.subtitleCard{
+  color: rgb(72, 71, 71);
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.line{
+  border-top:3px solid #000000;
+  margin: 30px auto;
+  width: 80%;
+}
+
+.modalBody{
+  background-color: bisque;
+  color:rgb(69,32,23);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.modalHeader{
+  background-color: rgb(255, 161, 106);
+  color:rgb(69,32,23);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.modalBody input {
+  background-color: bisque; 
+  border-color: rgb(69,32,23);
+  color: rgb(69,32,23); /* Cor do texto dentro dos campos */
+}
+
+.modalBody .form-control:focus {
+  background-color: #ffe4b5 !important; /* Mantém a mesma cor de fundo ao focar */
+  border-color: #8b4513 !important; /* Mantém a borda marrom ao focar */
+  box-shadow: none; /* Remove o brilho azul padrão de foco */
+}
+
+
